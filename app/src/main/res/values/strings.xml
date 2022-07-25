@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MySoccerCard</string>
+    <string name="label_description_new_card">Dados do Jogador</string>
+    <string name="label_name">Nome</string>
+    <string name="label_create">Criar</string>
+    <string name="label_speed">Velocidade</string>
+    <string name="label_txt_shot">Chute</string>
+    <string name="label_txt_passing">Passe</string>
+    <string name="label_txt_dribbling">Dibre</string>
+    <string name="label_txt_defense">Defesa</string>
+    <string name="label_txt_physical">Fisico</string>
+    <string name="label_shot">Chu</string>
+    <string name="label_passing">Pas</string>
+    <string name="label_dribbling">Dib</string>
+    <string name="label_defense">Def</string>
+    <string name="label_physical">Fis</string>
+    <string name="label_vel">VEL</string>
+    <string name="numberTest">99</string>
+    <string name="positionTest">CA</string>
+    <string name="player_name">Nome do Jogador</string>
+    <string name="label_txt_position">Posicao</string>
+    <string name="label_share_to">Compartilhar</string>
+    <string name="label_txt_urlImage">Url imagem</string>
+</resources>

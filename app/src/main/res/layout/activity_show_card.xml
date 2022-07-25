@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/photoPlayer"
+                android:background="@color/black"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_ratting"
+                    style="@style/DEFAULT_TXT_RATTING"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gold"
+                    tools:text="@string/numberTest" />
+
+                <TextView
+                    android:id="@+id/tv_position"
+                    style="@style/DEFAULT_TXT_RATTING"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/gold"
+                    tools:text="@string/positionTest" />
+
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/photoPlayer"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:layout_alignParentEnd="true"
+                android:background="@color/black">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_photo"
+                    android:layout_width="300dp"
+                    android:layout_height="350dp"
+                    android:src="@color/white"
+                    app:civ_border_color="@color/gold"
+                    app:civ_border_width="2dp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:background="@color/black"
+        android:textColor="@color/gold"
+        android:textSize="50sp"
+        android:padding="25dp"
+        android:fontFamily="@font/easports"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_name"/>
+
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_gravity="center"
+            android:layout_weight= "1.3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_vel"
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:text="@string/numberTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_chu"
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/numberTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_pas"
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginTop="10dp"
+                android:text="@string/numberTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_gravity="center"
+            android:layout_weight= "1.2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:text="@string/label_vel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/label_shot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginTop="10dp"
+                android:text="@string/label_passing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_gravity="center"
+            android:layout_weight= "1.3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_dib"
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:text="@string/numberTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_def"
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/numberTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_fis"
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginTop="10dp"
+                android:text="@string/numberTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_gravity="center"
+            android:layout_weight= "1.2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:text="@string/label_dribbling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/label_defense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/gold"
+                style="@style/DEFAULT_TXT_SKILLS"
+                android:layout_marginTop="10dp"
+                android:text="@string/label_physical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+
+</LinearLayout>
