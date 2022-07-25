@@ -3,5 +3,5 @@ Aplicativo para criação de cartinha de futebol, feito durante o bootcamp da DI
 
 
 <h1 align="center">
-  <img style="border-radius: 50%;" src="./assets/itemsScreen.png" width="250px;" alt=""/>
+  <img style="border-radius: 50%;" src="./assets/soccerCard.png" width="250px;" alt=""/>
   </h1>
